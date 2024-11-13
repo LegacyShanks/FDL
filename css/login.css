@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55em;
+     background: linear-gradient(#fee2b8, white);
+}
+
+.login-area {
+    background: linear-gradient(#fee2b8, white, #fee2b8) ;
+    padding: 3em 5em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px;
+    z-index: 0;
+}
+
+.login-area .login-area-txt-h1 {
+    position: relative;
+    bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login-area .login-area-email .login-area-email-input {
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+}
+.login-area .login-area-password .login-area-password-input {
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+.login-area .login-area-txt-p {
+    position: relative;
+    top: 1em;
+    text-align: center;
+}
+
+

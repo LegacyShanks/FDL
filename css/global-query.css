@@ -1,0 +1,38 @@
+@media only screen and (orientation:portrait) {
+    .nav {
+        height: 90px;
+        transition: 0.5s ease-out;
+    }
+    .nav .nav-btn-menu {
+        border: none;
+        background: none;
+        position: absolute;
+        top: 0;
+    }
+    .nav .nav-btn {
+        padding: 15px 20px;
+        position: relative;
+        top: 40px;
+        visibility: hidden;
+    }
+    .nav:focus-within .nav-btn {
+        visibility: visible;
+    }
+    .nav:focus-within {
+        height: 160px;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:1440px) {
+    .nav .nav-btn {
+        padding: 15px 5px;
+    }
+}
+   
+@media only screen and (orientation:landscape) and (min-width:2560px) {
+    .nav .nav-btn {
+        font-size: 150%;
+    }
+    .nav .nav-btn .nav-logo {
+        width: 150px;
+    }
+}
