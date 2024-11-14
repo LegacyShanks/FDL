@@ -2,37 +2,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 54em;
+    height: 95vh;
     background: linear-gradient(#fee2b8, white, #fee2b8);
 }
 
 .main .login-area {
     background: linear-gradient(#fee2b8, white, #fee2b8) ;
-    padding: 3em 5em;
-    border-radius: 1em;
+    padding: 5vh 10vh;
+    border-radius: 5vh;
     text-align: center;
     box-shadow: 0 0 5px;
 }
 
 .main .login-area .login-area-txt-h1 {
     position: relative;
-    bottom: 1em;
+    bottom: 3vh;
     text-align: center;
     text-transform: uppercase;
 }
 
 .main .login-area .login-area-email .login-area-email-input {
-    padding: 0.5em 1em;
+    padding: 1vh 2vh;
     margin-bottom: 0.5em;
-    border-radius: 0.5em;
+    border-radius: 1vh;
 }
 .main .login-area .login-area-password .login-area-password-input {
-    padding: 0.5em 1em;
-    border-radius: 0.5em;
+    padding: 1vh 2vh;
+    border-radius: 1vh;
 }
 .main .login-area .login-area-txt-p {
     position: relative;
-    top: 1em;
+    top: 2vh;
     text-align: center;
 }
 
