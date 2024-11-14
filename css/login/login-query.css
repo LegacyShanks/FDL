@@ -1,46 +1,46 @@
 @media only screen and (orientation:portrait) {
     .main {
-        height: 45em;
+        height: 94vh;
     }
 
     .main .login-area {
-        padding: 3em;
+        padding: 5vh;
         width: 90%;
     }
 }
 @media only screen and (orientation:landscape) and (max-width:1440px) {
     .main {
-        height: 45em;
+        height: 94vh;
     }
 }
 @media only screen and (orientation:landscape) and (min-width:2560px) {
     .main {
-        height: 77em;
+        height: 94vh;
     }
 
     .main .login-area {
-        padding: 10em 15em;
+        padding: 10vh 20vh;
     }
 
     .main .login-area .login-area-txt-h1 {
        font-size: 300%;
-       bottom: 2em;
+       bottom: 5vh;
     }
     
     .main .login-area .login-area-email .login-area-email-input {
-        padding: 1em 5em;
-        margin-bottom: 1em;
-        border-radius: 1em;
+        padding: 1vh 5vh;
+        margin-bottom: 1vh;
+        border-radius: 1vh;
         font-size: 100%;
     }
     .main .login-area .login-area-password .login-area-password-input {
-        padding: 1em 5em;
-        border-radius: 1em;
+        padding: 1vh 5vh;
+        border-radius: 1vh;
         font-size: 100%;
     }
     .main .login-area .login-area-txt-p {
         position: relative;
-        top: 5em;
+        top: 5vh;
         font-size: 120%;
         text-align: center;
     }
