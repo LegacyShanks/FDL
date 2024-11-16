@@ -12,6 +12,7 @@
     justify-content: space-evenly;
     position: fixed;
     width: 100%;
+    box-shadow: 0 0 3px black;
 }
 .nav .nav-btn-menu {
     border: none;
@@ -42,6 +43,7 @@
 }
 .footer {
     padding: 10px;
-    align-self: center;
-    justify-self: center;
+    box-shadow: 0 0 3px black;
+    width: 100%;
+    text-align: center;
 }
