@@ -1,0 +1,87 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95.5vh;
+    background: linear-gradient(#fee2b8, white, #fee2b8);
+}
+
+.main .form-area {
+    border-radius: 5vh;
+    padding: 2vh 5vh;
+    margin-top: 12vh;
+}
+
+.main .form-area .form-area-h1 {
+    text-transform: uppercase;
+    text-wrap: balance;
+    text-align: center;
+}
+
+.main .form-area .form-area-dadosgerais {
+    display: flex;
+}
+
+.main .form-area .form-area-dadospessoais {
+    border-radius: 1vh;
+    padding: 5vh;
+    margin: 3vh;
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(#fee2b8, white);
+   
+}
+
+.main .form-area .form-area-dadospessoais .form-area-dadospessoais-h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 150%;
+    padding-bottom: 3vh;
+}
+
+.main .form-area .form-area-dadospessoais .form-area-dadospessoais-p {
+    text-align: left;
+    font-weight: bold;
+}
+
+.main .form-area .form-area-dadospessoais .form-area-dadospessoais-p>p {
+    padding-bottom: 2vh;
+}
+
+.main .form-area .form-area-dadospessoais .form-area-dadospessoais-p>p>input {
+    padding: 1vh 5vh;
+    border-radius: 1vh;
+    border: none;
+}
+
+
+.main .form-area .form-area-dadossite {
+    box-shadow: 0 0 5px black;
+    border-radius: 1vh;
+    padding: 5vh;
+    margin: 3vh;
+    background: linear-gradient(#fee2b8, white);
+  
+}
+
+.main .form-area .form-area-dadossite .form-area-dadossite-h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 150%;
+    padding-bottom: 3vh;
+}
+
+.main .form-area .form-area-dadossite .form-area-dadossite-p {
+    font-weight: bold;
+}
+.main .form-area .form-area-dadossite .form-area-dadossite-p>p {
+    padding-bottom: 2vh;
+}
+
+.main .form-area .form-area-dadossite .form-area-dadossite-p>p>input {
+    padding: 1vh 5vh;
+    border-radius: 1vh;
+    border: none;
+}
+ 
+ 
+   
