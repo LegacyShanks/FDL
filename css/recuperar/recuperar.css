@@ -1,0 +1,23 @@
+.main {
+    height: 95.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#fee2b8, white, #fee2b8) ;
+}
+
+.main .recuperar-area {
+    background: linear-gradient(#fee2b8, white);
+    padding: 5vh;
+    border-radius: 1vh;
+    box-shadow: 0 0 5px black;
+}
+
+.main .recuperar-area .recuperar-area-email .recuperar-area-email-label {
+    font-weight: bold;
+}
+.main .recuperar-area .recuperar-area-email .recuperar-area-email-input {
+    padding: 1vh 10vh;
+    border: none;
+    border-radius: 1vh;
+}

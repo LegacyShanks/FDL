@@ -1,0 +1,5 @@
+@media only screen and (orientation:portrait) {
+    .main .recuperar-area .recuperar-area-email .recuperar-area-email-input {
+        padding: 1vh 5vh;
+    }
+}

@@ -1,0 +1,76 @@
+.main {
+    background: linear-gradient(#fee2b8, white, #fee2b8);
+    height: 95.5vh;
+}
+
+.main .loja-area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.main .loja-area .loja-produto {
+    padding: 5vh 1vh 3vh 1vh;
+    margin-left: 5vh;
+    background: #fee2b8;
+    border-radius: 1vh;
+    box-shadow: 0 0 5px black;
+    height: 420px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main .loja-area .loja-produto .loja-produto-img {
+    width: 200px;
+    height: 150px;
+}
+
+.main .loja-area .loja-produto-txt {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    border-radius: 1vh;
+    background: linear-gradient(#fee2b8, white, #fee2b8);
+    box-shadow: 0 0 2px black;
+}
+
+.main .loja-area .loja-produto-txt1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main .loja-area .loja-produto-txt2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main .loja-area .loja-produto-small {
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+.main .loja-area .loja-produto .loja-produto-comprar {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh 0 0 0;
+    align-items: center;
+}
+
+.main .loja-area .loja-produto .loja-produto-comprar .loja-produto-comprar-input {
+    padding: 0.5vh;
+    border: none;
+    width: 5vh;
+}
+
+.main .loja-area .loja-produto .loja-produto-comprar .loja-produto-comprar-btn {
+    padding: 0.5vh;
+    margin: 1vh 0 0;
+}
+
